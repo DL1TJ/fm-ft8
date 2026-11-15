@@ -8,9 +8,11 @@ Das ist ein persönlicher Vorschlag von mir, Tobias Johnson, DL1TJ. Es ist kein 
 kein offizielles Projekt und mit niemandem abgestimmt. Ich schreibe ihn offen auf, damit
 andere ihn ausprobieren, prüfen und mir sagen können, wo er falsch liegt.
 
-> **Stand: eine Idee, noch nicht auf dem Band erprobt.** Ich habe so noch keinen Kontakt
-> gemacht und nichts gemessen. Jede Angabe zu Reichweite oder Leistung ist das, was ich
-> erwarte, nicht das, was ich weiß.
+> **Stand: eine Idee mit einem ersten Test.** Am 15.11.2026 habe ich FT8-Kontakte über FM
+> zwischen zwei eigenen Stationen abgeschlossen ([Ergebnisse](testing/RESULTS.md)). Mit
+> einem anderen Funkamateur habe ich so noch nicht gearbeitet, und keine der geplanten
+> Messungen ist gemacht. Jede Angabe zu Reichweite oder Leistung ist das, was ich erwarte,
+> nicht das, was ich weiß.
 
 Die weiteren Dokumente in diesem Repository sind vorerst auf Englisch; die
 Schritt-für-Schritt-Anleitung gibt es auf Deutsch auf meiner
