@@ -151,7 +151,7 @@ themselves are not in this repository.
 ![Spectrogram of three slots received at station A during the last contact](2026-11-15/spectrogram-FT818-on-FT60.webp)
 
 The three slots in which station A received during the last contact (16:36:00, 16:36:30
-and 16:37:00 UTC), 0 to 3200 Hz.
+and 16:37:00 UTC), 0 to 3300 Hz. Darker means stronger; the scale spans 70 dB.
 
 - **Second harmonic of the FT-818's signal:** 24.6 to 24.8 dB below the signal itself, in
   five slots (the three above, 16:47:00 and 16:49:00). Method: power spectrum of seconds
