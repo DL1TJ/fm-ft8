@@ -8,9 +8,10 @@ This is a personal proposal by me, Tobias Johnson, DL1TJ. It is not a standard, 
 official project and not coordinated with anyone. I am writing it down in the open so that
 others can try it, check it and tell me where it is wrong.
 
-> **Status: an idea, not yet tested on the air.** I have made no contact this way yet and
-> measured nothing. Every statement about range or performance here is what I expect, not
-> what I know.
+> **Status: an idea with a first test behind it.** On 2026-11-15 I completed FT8 contacts
+> via FM between two of my own stations ([results](testing/RESULTS.md)). I have not yet
+> worked another operator this way, and none of the planned measurements is done. Every
+> statement about range or performance here is what I expect, not what I know.
 
 ## The idea
 
@@ -92,7 +93,7 @@ Three stages, which I keep apart:
 | [docs/OPERATING_GUIDE.md](docs/OPERATING_GUIDE.md) | Setting up the radio and WSJT-X, making a contact |
 | [docs/FREQUENCY_PLAN.md](docs/FREQUENCY_PLAN.md) | Why 144.575 MHz, and what to respect there |
 | [hardware/REFERENCE_SETUP.md](hardware/REFERENCE_SETUP.md) | The interface I intend to build (draft, untested) |
-| [testing/TEST_PLAN.md](testing/TEST_PLAN.md), [RESULTS.md](testing/RESULTS.md) | What I want to measure, and what has been measured (nothing yet) |
+| [testing/TEST_PLAN.md](testing/TEST_PLAN.md), [RESULTS.md](testing/RESULTS.md) | What I want to measure, and what has been measured (a first contact between my own stations) |
 
 ## Try it, and tell me
 
