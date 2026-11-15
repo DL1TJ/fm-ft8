@@ -23,7 +23,7 @@ with the details needed to repeat it.
 | 2 Two-station RF link | partly: full contacts completed; ten-slot counts not run | [2026-11-15](#2026-11-15-ft-60-and-ft-818) |
 | 3 PTT start-up delay | open (DT as reported by WSJT-X noted, no delay measurement) | [2026-11-15](#2026-11-15-ft-60-and-ft-818) |
 | 4 FM deviation | open | - |
-| 5 Audio frequency response | open (harmonics seen, not measured) | [2026-11-15](#2026-11-15-ft-60-and-ft-818) |
+| 5 Audio frequency response | open (harmonics seen; one measured in recorded audio) | [2026-11-15](#2026-11-15-ft-60-and-ft-818) |
 | 6 Weak-signal decoding | open | - |
 | 7 Narrow versus wide FM | open | - |
 | 8 Real-world range | open | - |
@@ -135,7 +135,33 @@ the report it had in the field. The signal was decoded at +34 dB.
   end of the session (1500 Hz tone, lower level, FT-60 on narrow) only faint lines
   remained while the FT-60 was transmitting. I did not measure their level or find where
   they arise (transmit audio, receive audio, or RF picked up by the audio cable).
-  Decoding was not affected. Station A's waterfall showed none on the FT-818's signal.
+  Decoding was not affected.
+- **The FT-818's signal has a harmonic too.** I did not notice one on station A's
+  waterfall during the session, but the audio WSJT-X saved at station A shows a copy of
+  the 1500 Hz signal at 3000 Hz, at the upper edge of the waterfall. See
+  [the recorded audio](#the-recorded-audio) below.
+
+### The recorded audio
+
+From 16:28:30 on, WSJT-X at station A saved the received audio of every slot (12 kHz, mono;
+"Save all"). The recordings contain the FT-818's signal as the FT-60 received it. There is
+no recording of the FT-60's signal, and none of the first three contacts. The files
+themselves are not in this repository.
+
+![Spectrogram of three slots received at station A during the last contact](2026-11-15/spectrogram-FT818-on-FT60.webp)
+
+The three slots in which station A received during the last contact (16:36:00, 16:36:30
+and 16:37:00 UTC), 0 to 3300 Hz. Darker means stronger; the scale spans 70 dB.
+
+- **Second harmonic of the FT-818's signal:** 24.6 to 24.8 dB below the signal itself, in
+  five slots (the three above, 16:47:00 and 16:49:00). Method: power spectrum of seconds
+  1.5 to 12.5 of each recording, power in 2960 to 3120 Hz against power in 1480 to
+  1560 Hz. This is the level in the recorded audio, after the FT-60's receive filtering
+  and the sound card. Where the harmonic arises (the FT-818's transmit audio, the FT-60's
+  receive audio, or the sound card input) is not determined.
+- **Noise after each transmission:** when the FT-818's carrier drops, at about 13.4 s into
+  the slot, the open squelch lets full-band noise through. During the transmission the
+  noise is suppressed.
 
 ### Not measured
 
